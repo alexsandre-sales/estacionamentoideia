@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+body{
+  background-color: rgb(0, 1, 60);
+}
+
+.container{
+  width: 50%;
+  margin-top: 5rem;
+}
+
+.container-top{
+  margin-top: 5rem;
+}
+
+
+.table{
+  color: #e6e2e2;
+}
+
+input{
+  padding: 8px;
+  border-radius: 6px;
+  margin: 0 2px;
+  outline: none;
+}
+
+.btn-Cad{
+  margin-left: 10px;
+  padding: 8px;
+  cursor: pointer;
+  background-color: rgb(108, 102, 221);
+  color: #e6e2e2;
+  border-radius: 8px;
+}
+
+.container-mid{
+    margin-top: 5rem;
+}
+
+.delete{
+  margin-left: 10px;
+  padding: 0 10px;
+  cursor: pointer;
+  background-color:rgb(170, 0, 0);
+  color: #a9a6a6;
+  border-radius: 8px;
+  transition: .3s linear;
+}
+
+.delete:hover{
+  background-color: red;
+  color: #e6e2e2;
+}
